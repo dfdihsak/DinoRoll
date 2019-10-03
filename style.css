@@ -1,0 +1,30 @@
+body {
+    font-family: 'Proxima Nova', sans-serif;
+    padding: 20px;
+  }
+  
+ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .dino-item {
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    box-shadow: 0 5px 10px 0 lightgray;
+  }
+  
+  .dino-item img {
+    max-width: 100%;
+  }
+
+/* toggles visibility */
+
+  .toggle {
+    display: none;
+  }
+
+  .toggle.visible {
+    display: block;
+  }
